@@ -1,9 +1,7 @@
 # HUDSMatch
-Web application that recommends food shelters to university dining hall for donations based on number of matches in excess/requested inventory and distance between the two parties.
+HUDSMatch is a web application that recommends food shelters to university dining hall for donations based on number of matches in excess/requested inventory and distance between the two parties.
 
-Documentation for your project in the form of a Markdown file called README.md. This documentation is to be a user’s manual for your project. Though the structure of your documentation is entirely up to you, it should be incredibly clear to the staff how and where, if applicable, to compile, configure, and use your project. Your documentation should be at least several paragraphs in length. It should not be necessary for us to contact you with questions regarding your project after its submission. Hold our hand with this documentation; be sure to answer in your documentation any questions that you think we might have while testing your work.
-
-How to test our web application (generally):
+How to test the web application:
 
 As you can read on the About page (index page) of our site, Pack&Match is a food management program that connects Harvard University Dining Services (HUDS) to local food shelters. Basically, we allow food shelters to register and make requests for food, and then we tell HUDS the top shelters to donate to that day by implementing a matching algorithm. Right now, our site is mostly meant to be used by shelters who are requesting food from HUDS only. But as seen on our Register page, we still allow other entities to register as donors. Upon registering, they would see the same donation forms and be able to use the same matching algorithms as HUDS. However, they would need to communicate with the other donors to see when each one is donating, because our current code is constructed so that only one donor can donate once on a given day. We currently do not have a way for the donors to interact with one another, so the best way to test our website is to register only one donor (HUDS) and to test how it interacts with the requests from multiple shelters. For example, this is how we would present our project at the CS50 fair.
 
